@@ -1,1 +1,4 @@
 @plugin "daisyui";
+*{
+    font-family:'Public Sans',sans-serif;
+}

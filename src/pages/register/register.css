@@ -1,0 +1,65 @@
+body{
+    background-color: #F8F4F0;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+
+}
+.img_register {
+    width: 500px;
+    height: 630px;
+    object-fit: cover; 
+  }
+  
+.inputs{
+    width: 450px;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.inputs h2{
+    font-size: 30px;
+}
+
+.inputs p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.inputs input{
+    width: 300px;
+    border-radius: 5px;
+    height: 35px;
+    border: 1px solid black;
+}
+.inputs_2{
+    margin-left: 70px;
+    
+}
+
+.inputs button{
+    width: 306px;
+    height: 35px;
+    border: none;
+    background: #201F24;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inputs span{
+    font-size: 13px;
+    margin-left: 50px;
+}
+.inputs link{
+    font-size: 12px;
+}
+
+.bottm{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
