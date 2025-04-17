@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './register.css';
 import { Link, useNavigate } from 'react-router-dom';
 
+
 function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
