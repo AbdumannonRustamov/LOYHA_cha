@@ -16,10 +16,10 @@ body {
 
 .inputs {
     width: 450px;
-    height: 250px; /* Adjusted height for login form */
+    height: 250px; 
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px; 
 }
 
 .inputs h2 {
@@ -32,8 +32,8 @@ body {
 }
 
 .inputs input {
-    width: 100%; /* Full width for better alignment */
-    max-width: 300px; /* Limit max width for inputs */
+    width: 100%; 
+    max-width: 300px; 
     border-radius: 5px;
     height: 35px;
     border: 1px solid black;
