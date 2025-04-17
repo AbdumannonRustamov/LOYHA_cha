@@ -24,7 +24,6 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Inputlarni tekshirish
     if (!name || !email || !password) {
       alert('Please fill in all fields.');
       return;
@@ -35,7 +34,6 @@ function Register() {
       return;
     }
 
-    // Barcha tekshiruvlar muvaffaqiyatli bo‘lsa, Overview sahifasiga yo‘naltirish
     navigate('/overview');
   };
 
