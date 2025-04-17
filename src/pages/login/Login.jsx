@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './login.css';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../../firebase';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [passwordError, setPasswordError] = useState('');
-  
+  const [firebaseError, setFirebaseError] = useState('');
+
   const navigate = useNavigate();
 
   const handlePasswordChange = (e) => {
@@ -19,7 +22,7 @@ function Login() {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!email || !password) {
@@ -32,8 +35,13 @@ function Login() {
       return;
     }
 
-    // Simulate a login process, for example, navigate to the overview page
-    navigate('/overview');
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      navigate('/overview');
+    } catch (error) {
+      console.error('Login error:', error);
+      setFirebaseError(error.message);
+    }
   };
 
   return (
@@ -42,7 +50,7 @@ function Login() {
         <img
           className="img_login"
           src="./src/images/Frame 33.png"
-          alt="fe"
+          alt="login"
           width={490}
           height={630}
         />
@@ -68,12 +76,13 @@ function Login() {
               required
             />
             {passwordError && <p className="error-message">{passwordError}</p>}
-            <br /> <br />
+            {firebaseError && <p className="error-message">{firebaseError}</p>}
+            <br /><br />
             <button type="submit" className="btn btn-accent">Login</button>
           </form>
-          <div className='bottom'>
+          <div className="bottom">
             <span>Dont have an account? </span>
-            <Link className='link' to="/register">Sign Up</Link>
+            <Link className="link" to="/register">Sign Up</Link>
           </div>
         </div>
       </div>
