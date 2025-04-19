@@ -43,7 +43,7 @@ function App() {
     {
       path: "/",
       element: user ? (
-        <PortectedRoutes user={user}>
+        <PortectedRoutes user={true}>
           <MainLayout />
         </PortectedRoutes>
       ) : (
@@ -51,7 +51,7 @@ function App() {
       ),
       children: user
         ? [
-            { index: true,       element: <Overview /> },
+            { index: false,       element: <Overview /> },
             { path: "overview",  element: <Overview /> },
             { path: "budgets",   element: <Budgets /> },
             { path: "posts",     element: <Posts /> },

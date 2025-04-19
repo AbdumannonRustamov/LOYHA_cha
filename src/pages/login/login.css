@@ -1,6 +1,3 @@
-body {
-    background-color: #F8F4F0;
-}
 
 .login {
     display: flex;
@@ -16,10 +13,10 @@ body {
 
 .inputs {
     width: 450px;
-    height: 250px; 
+    height: 250px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 20px; 
+    padding: 20px;
 }
 
 .inputs h2 {
@@ -32,8 +29,8 @@ body {
 }
 
 .inputs input {
-    width: 100%; 
-    max-width: 300px; 
+    width: 100%;
+    max-width: 300px;
     border-radius: 5px;
     height: 35px;
     border: 1px solid black;
@@ -46,7 +43,7 @@ body {
 
 .inputs button {
     width: 100%;
-    max-width: 306px; 
+    max-width: 306px;
     height: 35px;
     border: none;
     background: #201F24;
@@ -55,6 +52,9 @@ body {
     cursor: pointer;
 }
 
+.inputs{
+  background-color: white;
+}
 .inputs span {
     font-size: 13px;
     margin-left: 50px;
@@ -74,4 +74,93 @@ body {
     color: red;
     font-size: 12px;
     margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+  .login {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    background-image: none;
+  }
+  .inputs{
+    background-color: white;
+  }
+  .img_login {
+    display: none; 
+  }
+
+  .img_login {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .inputs {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+  }
+
+  .inputs_2 {
+    margin-left: 0;
+  }
+
+  .inputs input,
+  .inputs button {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .inputs span {
+    margin-left: 0;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 640px) {
+  .login {
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 0;
+    background-image: none;
+  }
+  .inputs{
+    background-color: white;
+  }
+  .img_login {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .inputs {
+    max-width: 320px;
+    padding: 16px;
+  }
+
+  .inputs h2 {
+    font-size: 24px;
+  }
+
+  .inputs input {
+    height: 32px;
+  }
+
+  .inputs button {
+    height: 32px;
+  }
+
+  .inputs p {
+    font-size: 11px;
+  }
+
+  .inputs span,
+  .inputs .link {
+    font-size: 12px;
+  }
 }

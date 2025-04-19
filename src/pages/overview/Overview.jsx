@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import { auth } from '../../firebase';
-
+import './overview.css'
 function Overview() {
   const navigate = useNavigate();
 
@@ -16,9 +16,7 @@ function Overview() {
 
   return (
     <div>
-      <button className="btn btn-success" onClick={handleLogout}>
-        Log Out
-      </button>
+      <button className="btn btn-success" onClick={handleLogout}>Log Out</button>
     </div>
   );
 }
