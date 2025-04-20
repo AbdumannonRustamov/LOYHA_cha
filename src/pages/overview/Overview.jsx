@@ -20,11 +20,11 @@ function Overview() {
       <aside className="sidebar">
         <h2 className="logo">finance</h2>
         <nav className="nav-links">
-          <a href="#" >Overview</a>
-          <a href="/transactions">Transactions</a>
-          <a href="/budgets">Budgets</a>
-          <a href="/posts">Pots</a>
-          <a href="/recurringBills">Recurring Bills</a>
+          <a href="#" > <img src="../src/images/overview.svg" alt="" />       Overview</a>
+          <a href="/transactions"><img src="../src/images/icon-nav-transactions.svg" alt="" />      Transactions</a>
+          <a href="/budgets"><img src="../src/images/icon-nav-budgets.svg" alt="" />     Budgets</a>
+          <a href="/posts"><img src="../src/images/icon-nav-pots.svg" alt="" />   Pots</a>
+          <a href="/recurringBills"><img src="../src/images/icon-recurring-bills.svg" alt="" width={18} />     Recurring Bills</a>
         </nav>
         <div className="minimize">Minimize Menu</div>
       </aside>

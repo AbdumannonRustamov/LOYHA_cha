@@ -42,6 +42,8 @@
     width: 100%;
   }
   
+
+
   .nav-links a {
     color: white;
     transition: all 0.3s ease-in-out;
@@ -50,6 +52,7 @@
     border-radius: 6px;
     display: block;
     text-align: left;
+    padding-left: 10px;
   }
   
   .nav-links a:hover {
@@ -100,7 +103,11 @@
       gap: 10px;
       width: auto;
     }
-  
+    
+  .nav-links a > img{
+    display: flex;
+    gap: 10px;
+  }
     .nav-links a {
       padding: 8px;
       font-size: 14px;
