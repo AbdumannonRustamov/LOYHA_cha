@@ -19,6 +19,13 @@ function Overview() {
     <div className="container">
       <main className="main-content">
         <h1>Overview</h1>
+        <div className='card-1'> 
+          <div className='box-1'>
+            <div>ewfwer</div>
+            <div>fweew</div>
+            <div>feww</div>
+          </div>
+        </div>
         <button className="btn btn-success" onClick={handleLogout}>Log Out</button>
       </main>
     </div>

@@ -21,9 +21,9 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   width: 240px;
-  height: 651px;
+  height: 100vh;
   padding: 10px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   border-top-right-radius: 0;
@@ -56,7 +56,7 @@ body {
 }
 
 .logout_btn:hover{
-  color: #ce0202;
+  color: #ce0202; 
 }
 .logo {
   color: white;
@@ -99,10 +99,6 @@ body {
 }
   
   
-.main-content {
-  flex: 1;
-  padding: 20px;
-}
 
 @media (max-width: 768px) {
     .container {

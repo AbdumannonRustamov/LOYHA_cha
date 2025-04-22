@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
-import { Sidebar } from "../components"; 
-
+import { Sidebar } from "../components";
+import Overview from "../pages/overview/Overview";
 
 function MainLayout() {
   return (
-    <div className="layout-container">
+    <div className="container">
       <Sidebar />
-      <main className="layout-main">
-        <Outlet />
-      </main>
+      <div className="main-content">
+        <Overview /> 
+        <Outlet />     
+      </div>
     </div>
   );
 }
