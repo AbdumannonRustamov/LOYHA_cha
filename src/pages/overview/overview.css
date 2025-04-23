@@ -68,11 +68,11 @@ h2{
 
 .class{
     width: 150px;
-    height: 80px;
+    height: 100px;
     background-color: #f8f0e8;
     border-radius: 5px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .class-1 {
@@ -83,14 +83,46 @@ h2{
 .class-1 p{
     font-size: 10px;
     font-weight: 400;
-    margin-top: -5px;
+    margin-top: 7px;
 }
 
 .class-1 h2{
-    font-size: 30px;
-
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .class img{
     margin-left: 20px;
 }
+.goals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 60px;
+    max-width: 300px;
+    margin-left: 70px;
+  }
+  
+  .goal {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .bar {
+    width: 4px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  
+  .goal p {
+    color: #555;
+    font-size: 8px;
+    width: 60px;
+  }
+  
+  .goal strong {
+    display: block;
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  

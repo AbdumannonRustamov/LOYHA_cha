@@ -36,7 +36,37 @@ function Overview() {
               <h2>$850</h2>
               </div>
 
-              <div></div>
+              <div className="goals">
+      <div className="goal">
+        <div className="bar" style={{ backgroundColor: '#2A8674' }}></div>
+        <div>
+          <p>Savings</p>
+          <strong>$159</strong>
+        </div>
+      </div>
+      <div className="goal">
+        <div className="bar" style={{ backgroundColor: '#3793E0' }}></div>
+        <div>
+          <p>Gift</p>
+          <strong>$40</strong>
+        </div>
+      </div>
+      <div className="goal">
+        <div className="bar" style={{ backgroundColor: '#5B556D' }}></div>
+        <div>
+          <p>Concert Ticket</p>
+          <strong>$110</strong>
+        </div>
+      </div>
+  
+      <div className="goal">
+        <div className="bar" style={{ backgroundColor: '#F2C9AC' }}></div>
+        <div>
+          <p>New Laptop</p>
+          <strong>$10</strong>
+        </div>
+      </div>
+    </div>
             </div>
           </div>
         </div>
