@@ -1,32 +1,48 @@
-import { useNavigate } from 'react-router-dom';
-import { signOut } from 'firebase/auth';
-import { auth } from '../../firebase';
-import './overview.css';
+import "./overview.css";
 
 function Overview() {
-  const navigate = useNavigate();
-
-  const handleLogout = async () => {
-    try {
-      await signOut(auth);
-      navigate('/login');
-    } catch (error) {
-      console.error('Logout error:', error);
-    }
-  };
-
   return (
     <div className="container">
       <main className="main-content">
-        <h1>Overview</h1>
-        <div className='card-1'> 
-          <div className='box-1'>
-            <div>ewfwer</div>
-            <div>fweew</div>
-            <div>feww</div>
+        <h2>Overview</h2>
+
+        <div className="card-1">
+          <div className="box-1">
+            <div>
+              <p>Current Balance</p>
+              <span>$4,836.00</span>
+            </div>
+            <div>
+              <p>Income</p>
+              <span>$3,814.25</span>
+            </div>
+            <div>
+              <p>Expenses</p>
+              <span>$1,700.50</span>
+            </div>
           </div>
         </div>
-        <button className="btn btn-success" onClick={handleLogout}>Log Out</button>
+
+        <div>
+          <div className="post">
+            <div className="text">
+              <p>Post</p>
+              <span>See Details</span>
+            </div>
+            <div className="class">
+                <img src="../src/images/Vector(1).svg" width={20} alt="" />
+              <div className="class-1">
+              <p>Total Saved</p>
+              <h2>$850</h2>
+              </div>
+
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+        
+
       </main>
     </div>
   );

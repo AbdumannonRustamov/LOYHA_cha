@@ -7,7 +7,7 @@
     },
     "transactions": [
       {
-        "avatar": "./assets/images/avatars/emma-richardson.jpg",
+        "avatar": "../assets/images/avatars/emma-richardson.jpg",
         "name": "Emma Richardson",
         "category": "General",
         "date": "2024-08-19T14:23:11Z",
@@ -43,7 +43,7 @@
         "id": 4
       },
       {
-        "avatar": "./assets/images/avatars/urban-services-hub.jpg",
+        "avatar": "../assets/images/avatars/urban-services-hub.jpg",
         "name": "Urban Services Hub",
         "category": "General",
         "date": "2024-08-17T21:08:09Z",
