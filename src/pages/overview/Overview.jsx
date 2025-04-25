@@ -33,7 +33,7 @@ function Overview() {
                 <img src="../src/images/Vector(1).svg" width={20} alt="" />
               <div className="class-1">
               <p>Total Saved</p>
-              <h2>$850</h2>
+              <h3>$850</h3>
               </div>
 
               <div className="goals">

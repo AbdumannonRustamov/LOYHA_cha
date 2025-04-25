@@ -21,6 +21,9 @@ h2{
     transition: all 0.3s ease-in-out;
 }
 
+    .main-content h3{
+        font-size: 30px;
+    }
 .box-1{
     display: flex;
     gap: 30px;

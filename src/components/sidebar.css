@@ -65,6 +65,11 @@ body {
   font-size: 25px;
 }
 
+.nav-links{
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
 .nav-links a {
   color: white;
   transition: all 0.3s ease-in-out;
@@ -80,6 +85,10 @@ body {
 .nav-links a:hover {
   background-color: #ffffff;
   color: black;
+}
+
+.main-content h2{
+  font-size: 40px;
 }
 
 .minimize {
@@ -202,4 +211,126 @@ body {
     justify-content: center;
     font-size: 0;
   }
-  
+  .main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.top-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.widget {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.widget-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.widget-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.budget-chart {
+  width: 100%;
+  height: 200px;
+}
+
+@media (max-width: 992px) {
+  .top-cards {
+    flex-direction: column;
+  }
+
+  .widgets {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-bottom: 80px; 
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+  .main-content h2{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+.post {
+  width: 100%;
+  max-width: 685px;
+  height: auto;
+  min-height: 150px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
+
+
+  .nav-links{
+    display: flex;
+    gap: 70px;
+  }
+  .nav-links a:hover{
+    background: #000;
+    color: #fff;
+    width: 50px;
+    height: 40px;
+  }
+  .nav-links a {
+    font-size: 10px;
+  }
+  .widget {
+    padding: 15px;
+  }
+
+  .widget-title {
+    font-size: 14px;
+  }
+}
