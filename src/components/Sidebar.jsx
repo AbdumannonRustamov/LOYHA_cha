@@ -36,8 +36,9 @@ function Sidebar() {
       <button className="logout_btn" onClick={handleLogout}>Log Out</button>
 
       <button className="minimize" onClick={toggleSidebar}>
-        <img src="../src/images/Vector.svg" alt="Toggle" />
-        {!minimized && 'Minimize Menu'}
+        <img src="../src/images/Vector.svg"  alt="Toggle" />
+
+        {!minimized &&    'Minimize Menu' }
       </button>
     </aside>
   );

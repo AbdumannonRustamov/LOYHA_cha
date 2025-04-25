@@ -21,9 +21,27 @@ h2{
     transition: all 0.3s ease-in-out;
 }
 
-    .main-content h3{
+.main-content h3{
         font-size: 30px;
-    }
+}
+
+.chart{
+    width: 450px;
+    background-color:  white;
+    border-radius: 20px;
+  
+}
+
+.charts{
+    width: 350px;
+    margin-left: 30px;
+}
+
+.bg{
+    display: flex;
+    gap: 12px;
+}
+
 .box-1{
     display: flex;
     gap: 30px;
@@ -53,6 +71,23 @@ h2{
     padding: 25px;
 
 }
+
+.chart h4{
+    padding: 24px;
+    font-size: 25px;
+}
+
+.detalies{
+    display: flex;
+    gap: 180px;
+}
+
+.detalies p{
+    margin-top: 24px;
+    font-size: 14px;
+    text-align: center;
+}
+
 .post p{
     font-weight: 600;
     
