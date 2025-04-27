@@ -93,6 +93,87 @@ function Overview() {
           </div>
         </div>
         </div>
+        <div className="father-div">
+          <div className="wes">
+            <div className="texts">
+              <h4>Transactions</h4>
+              <p>View All</p>
+            </div>
+            <div>
+            <div className="children-div">
+              <div className="child">
+                <img src="./src/images/avatars/emma-richardson.jpg" alt="ece" />
+                <p>Emma Richardson</p>
+              </div>
+              <div className="fath">
+                <span>+$75.50</span>
+                <p>19 Aug 2024</p>
+              </div>
+            </div>
+            <div className="children-div">
+              <div className="child">
+                <img src="./src/images/avatars/savory-bites-bistro.jpg" alt="ece" />
+                <p>Savory Bites Bistro</p>
+              </div>
+              <div className="fath">
+              <span style={{ color: 'black' }}>-$55.50</span>
+
+                <p>19 Aug 2024</p>
+              </div>
+            </div>
+            <div className="children-divv">
+              <div className="child">
+                <img src="./src/images/avatars/daniel-carter.jpg" alt="ece" />
+                <p>Daniel Carter</p>
+              </div>
+              <div className="fath">
+              <span style={{ color: 'black' }}>-$42.30</span>
+                <p>18 Aug 2024</p>
+              </div>  
+            </div>
+            <div className="children-diva">
+              <div className="child">
+                <img src="./src/images/avatars/sun-park.jpg" alt="ece" />
+                <p>Sun Park</p>
+              </div>
+              <div className="fath">
+                <span>+$120.00</span>
+                <p>17 Aug 2024</p>
+              </div>
+            </div>
+            <div className="children-div">
+              <div className="child">
+                <img src="./src/images/avatars/urban-services-hub.jpg" alt="ece" />
+                <p>Urban Services Hu</p>
+              </div>
+              <div className="fath">
+                <span>+$75.50</span>
+                <p>19 Aug 2024</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div className="fatt">
+          <div className="wess">
+            <div className="ffather">
+              <h3>Recurring Bills</h3>
+              <p>See Details</p>
+            </div>
+            <div className="childer">
+              <p>Paid Bills</p>
+              <span>$190.00</span>
+            </div>
+            <div className="childer">
+              <p>Paid Bills</p>
+              <span>$190.00</span>
+            </div>
+            <div className="childer">
+              <p>Paid Bills</p>
+              <span>$190.00</span>
+            </div>
+          </div>    
+          </div>
+        </div>
       </main>       
     </div>
   );

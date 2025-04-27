@@ -1,10 +1,10 @@
-
+import "./taransactions.css"
 function Transactions() {
   return (
-    <div>
-      transactions
+    <div className="">
+      
     </div>
-  )
+  );
 }
 
-export default Transactions
+export default Transactions;

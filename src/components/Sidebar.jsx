@@ -26,7 +26,7 @@ function Sidebar() {
       <h2 className="logo">{!minimized && 'finance'}</h2>
 
       <nav className="nav-links">
-        <a href="#"><img src="../src/images/overview.svg" alt="" /> {!minimized && 'Overview'}</a>
+        <a href="/overview"><img src="../src/images/overview.svg" alt="" /> {!minimized && 'Overview'}</a>
         <a href="/transactions"><img src="../src/images/icon-nav-transactions.svg" alt="" /> {!minimized && 'Transactions'}</a>
         <a href="/budgets"><img src="../src/images/icon-nav-budgets.svg" alt="" /> {!minimized && 'Budgets'}</a>
         <a href="/posts"><img src="../src/images/icon-nav-pots.svg" alt="" /> {!minimized && 'Pots'}</a>

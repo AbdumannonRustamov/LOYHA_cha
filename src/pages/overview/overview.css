@@ -1,166 +1,339 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
 
-.main-content{
-    padding: 35px;
-    margin-top: -25px;
+.main-content {
+  padding: 35px;
+  margin-top: -25px;
 }
 
-h2{
-    cursor: pointer;
+h2 {
+  cursor: pointer;
+  margin-top: 20px;
 }
 
-.box-1 div{
-    width: 300px;
-    height: 100px;
-    background-color:rgb(255, 250, 250);
-    padding: 17px;
-    border-radius: 10px;
-    font-size: 14px;
-    transition: all 0.3s ease-in-out;
+.box-1 div {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(255, 250, 250);
+  padding: 17px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
 }
 
-.main-content h3{
-        font-size: 30px;
+.main-content h3 {
+  font-size: 30px;
 }
 
-.chart{
-    width: 450px;
-    background-color:  white;
-    border-radius: 20px;
-  
+.chart {
+  width: 450px;
+  background-color: white;
+  border-radius: 20px;
 }
 
-.charts{
-    width: 350px;
-    margin-left: 30px;
+.charts {
+  width: 350px;
+  margin-left: 30px;
 }
 
-.bg{
-    display: flex;
-    gap: 12px;
+.bg {
+  display: flex;
+  gap: 12px;
 }
 
-.box-1{
-    display: flex;
-    gap: 30px;
-    margin-top: 30px;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-.box-1 span{
-    font-size: 25px;
-    font-weight: 600;
+.box-1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-bottom: 30px;
 }
 
-.box-1 p{
-    color: #696868;
+.box-1 span {
+  font-size: 25px;
+  font-weight: 600;
 }
 
-.box-1 div:hover{
-    background-color: black;
-    color: white;
+.box-1 p {
+  color: #696868;
+}
+
+.box-1 div:hover {
+  background-color: black;
+  color: white;
 }
 
 .post {
-    width: 500px;
-    height: 170px;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 25px;
-
+  width: 500px;
+  height: 170px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
 }
 
-.chart h4{
-    padding: 24px;
-    font-size: 25px;
+.chart h4 {
+  padding: 24px;
+  font-size: 25px;
 }
 
-.detalies{
-    display: flex;
-    gap: 180px;
+.detalies {
+  display: flex;
+  gap: 180px;
 }
 
-.detalies p{
-    margin-top: 24px;
-    font-size: 14px;
-    text-align: center;
+.detalies p {
+  margin-top: 24px;
+  font-size: 14px;
+  text-align: center;
 }
 
-.post p{
-    font-weight: 600;
-    
+.post p {
+  font-weight: 600;
 }
 
-.text span{
-    font-size: 12px;
-    text-align: center;
+.text span {
+  font-size: 12px;
+  text-align: center;
 }
 
 .text {
-    display: flex;
-    gap: 330px;
-    margin-bottom: 10px;
+  display: flex;
+  gap: 330px;
+  margin-bottom: 10px;
 }
 
-.class{
-    width: 150px;
-    height: 100px;
-    background-color: #f8f0e8;
-    border-radius: 5px;
-    display: flex;
-    gap: 20px;
+.class {
+  width: 150px;
+  height: 100px;
+  background-color: #f8f0e8;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
 }
 
 .class-1 {
-    font-size: 12px;
-    margin-top: 20px;
+  font-size: 12px;
+  margin-top: 20px;
 }
 
-.class-1 p{
-    font-size: 10px;
-    font-weight: 400;
-    margin-top: 7px;
+.class-1 p {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 7px;
 }
 
-.class-1 h2{
-    font-size: 25px;
-    font-weight: 600;
+.class-1 h2 {
+  font-size: 25px;
+  font-weight: 600;
 }
 
-.class img{
-    margin-left: 20px;
+.class img {
+  margin-left: 20px;
 }
+
 .goals {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px 60px;
-    max-width: 300px;
-    margin-left: 70px;
-  }
-  
-  .goal {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .bar {
-    width: 4px;
-    height: 40px;
-    border-radius: 4px;
-  }
-  
-  .goal p {
-    color: #555;
-    font-size: 8px;
-    width: 60px;
-  }
-  
-  .goal strong {
-    display: block;
-    font-size: 14px;
-    margin-top: 2px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 60px;
+  max-width: 300px;
+  margin-left: 70px;
+}
+
+.goal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bar {
+  width: 4px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.goal p {
+  color: #555;
+  font-size: 8px;
+  width: 60px;
+}
+
+.goal strong {
+  display: block;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  gap: 225px;
+}
+
+.texts h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.texts p {
+  font-size: 12px;
+}
+
+.father-div {
+  width: 500px;
+  height: 430px;
+  background-color: #fff;
+  margin-top: -155px;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  gap: 80px;
+}
+
+.children-div {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+
+.child {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.child img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.children-divv {
+  display: flex;
+  gap: 240px;
+}
+
+.children-diva {
+  display: flex;
+  gap: 270px;
+}
+
+.fath span {
+  color: #277C78;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.fath p {
+  font-size: 9px;
+}
+
+.fatt {
+  background-color: #ffffff;
+  margin-top: 130px;
+  height: 255px;
+  width: 1000px;
+}
+
+.ffather {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+
+.child {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.fatt {
+  border-radius: 10px;
+}
+
+.child img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.fath span {
+  color: #277c78;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.fath p {
+  font-size: 9px;
+}
+
+.children-div,
+.children-divv,
+.children-diva {
+  display: flex;
+  gap: 2000px;
+}
+
+.children-divv {
+  gap: 240px;
+}
+
+.children-diva {
+  gap: 270px;
+}
+
+.children-div {
+  display: flex;
+  gap: 220px;
+}
+
+.fatt {
+  background-color: #ffffff;
+  margin-top: 130px;
+  height: 284px;
+}
+
+.ffather {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ffather h3 {
+  font-size: 25px;
+}
+
+.ffather p {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wess {
+  width: 445px;
+  padding: 15px;
+}
+
+.childer {
+  display: flex;
+  gap: 200px;
+  width: 410px;
+  border-radius: 5px;
+  height: 55px;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #F8F4F0;
+}
+
+.childer p {
+  font-size: 15px;
+  color: #696868;
+}
+
+.childer span {
+  margin-left: 40px;
+  font-weight: 600;
+}

@@ -51,12 +51,12 @@ function App() {
       ),
       children: user
         ? [
-            { index: false,       element: <Overview /> },
-            { path: "overview",  element: <Overview /> },
-            { path: "budgets",   element: <Budgets /> },
-            { path: "posts",     element: <Posts /> },
+            { index: true, element: <Overview /> },
+            { path: "overview", element: <Overview /> },
+            { path: "budgets", element: <Budgets /> },
+            { path: "posts", element: <Posts /> },
             { path: "recurringBills", element: <RecurringBills /> },
-            { path: "transactions",  element: <Transactions /> },
+            { path: "transactions", element: <Transactions /> },
           ]
         : []
     },
