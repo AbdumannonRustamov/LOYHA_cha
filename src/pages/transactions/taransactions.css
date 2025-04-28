@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(217, 218, 221);
+}
+
+.h3{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.fatherdiv{
+    width: 1010px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+}
+.my-input {
+    padding: 10px;
+    color: #636363;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    
+    transition: border-color 0.3s ease;
+  }
+  
+  .my-input:focus {
+    border-color: #080808;
+  }
+  
+  .my-select{
+    background-color: #fff;
+    border:1px solid #acacac;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 16px;
+    padding: 5px;
+    width: 120px;
+  }
+  .my-selectt{
+    background-color: #fff;
+    border:1px solid #acacac;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px;
+    width: 155px;
+  }
+  .selects{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .my-div{
+    display: flex;
+    gap: 240px;
+    margin-bottom: 50px;
+  }
+  .you-div{
+    display: flex;
+    gap: 10px;
+
+  }
+
+  .childrendiv{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 20px;
+    
+    
+  }
+
+  .childrendiv span{
+    margin-left: 80px;
+    font-weight: 600;
+  }
+  .faths{
+    display: flex;
+    gap: 50px;
+    margin-left: 180px;
+    align-items: center;
+    margin-top: -10;
+    text-align: center;
+  }
+
+  .childs{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .childs img{
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .faths p{
+    color: #acacac;
+    font-size: 13px;
+  }
