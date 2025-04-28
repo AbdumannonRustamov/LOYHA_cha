@@ -87,10 +87,3 @@
       height: 200px;
     }
   }
-  
-  @media (min-width: 1024px) {
-    .budgets-container {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-     
-  
