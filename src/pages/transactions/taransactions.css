@@ -37,7 +37,7 @@ body{
     border-radius: 5px;
     height: 45px;
     font-size: 16px;
-    padding: 5px;
+    padding: 10px;
     width: 120px;
   }
   .my-selectt{
@@ -88,6 +88,23 @@ body{
     text-align: center;
   }
 
+  .faths {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2ta ustun, teng bo‘linadi */
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .faths p {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
   .childs{
     display: flex;
     gap: 10px;
@@ -96,9 +113,4 @@ body{
   .childs img{
     width: 40px;
     border-radius: 50%;
-  }
-
-  .faths p{
-    color: #acacac;
-    font-size: 13px;
   }
