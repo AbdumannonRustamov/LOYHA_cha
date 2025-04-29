@@ -1,59 +1,75 @@
 .budgets-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 2rem;
+    background-color: #f4f0ed;
+    font-family: 'Inter', sans-serif;
   }
   
-  .budgets-header {
-    display: flex;
-    justify-content: space-between;
+  .header {
+    grid-column: span 2;
     align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .add-budget-btn {
-    background-color: #000;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  .overview-section {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
     margin-bottom: 2rem;
   }
   
+  .header-2 {
+    display: flex;
+    align-items: center;
+    gap: 600px;
+    margin-bottom: 50px;
+  }
+
+  .add-budget-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .header > div:nth-child(2) {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
   .chart-placeholder {
-    background: #eee;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  .spending-summary {
+    font-size: 0.95rem;
   }
   
   .spending-summary ul {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
   
   .spending-summary li {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #eee;
   }
   
   .budget-category {
-    background: #f9f9f9;
-    border-radius: 12px;
-    padding: 1rem;
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.5rem;
     margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   }
   
   .budget-bar {
@@ -63,37 +79,23 @@
     margin: 0.5rem 0 1rem 0;
   }
   
+  .latest-spending h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
   .latest-spending ul {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
   
   .latest-spending li {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 0;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
   }
-  
-  @media (min-width: 768px) {
-    .overview-section {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .chart-placeholder {
-      width: 200px;
-      height: 200px;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .budgets-container {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 20px;
-     
-    }}
-    .header{
-
-    }
+ 
